@@ -53,13 +53,13 @@ p {
 }
 
 .display {
-  font-size: 5.063rem;
+  font-size: 3.375rem;
   margin-bottom: 1rem;
   line-height: .8;
   font-weight: 700;
 }
 
-@media (min-width: 575px) {
+@media (min-width: 576px) {
   .display {
     font-size: 7.594rem;
   }
@@ -103,7 +103,7 @@ p {
   background: #9E4141;
 }
 
-@media (min-width: 575px) {
+@media (min-width: 576px) {
   .button {
     display: inline-block;
     margin-bottom: 0;
@@ -114,7 +114,7 @@ p {
   margin-bottom: 1rem;
 }
 
-@media (min-width: 575px) {
+@media (min-width: 576px) {
   .buttons .button:last-child {
     margin-left: 1rem;
   }
@@ -139,7 +139,7 @@ p {
   margin-top: .5rem;
 }
 
-@media (min-width: 575px) {
+@media (min-width: 576px) {
   .tools {
     grid-template-columns: 1fr 1fr;
   }
@@ -164,7 +164,7 @@ p {
   justify-content: center;
 }
 
-@media (min-width: 575px) {
+@media (min-width: 576px) {
   .footer-links {
     width: auto;
   }
@@ -205,7 +205,7 @@ p {
   max-width: 100%;
 }
 
-@media (min-width: 575px) {
+@media (min-width: 576px) {
   .about-image {
     max-width: 300px;
     float: left;
