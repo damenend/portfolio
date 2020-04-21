@@ -15,7 +15,7 @@
   <meta name="theme-color" content="#ffffff">
   <title>David Menendez | Front End Web Developer</title>
   <link rel="stylesheet" href="css/styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -46,11 +46,11 @@
   </svg>
   <section class="splash fullsize">
     <div class="container">
-      <h1 class="display">Greetings, I'm David Menendez and I'm a front end web developer</h1>
-      <div class="buttons">
-        <a class="nav-button button" href="#about">about</a>
-        <a class="nav-button button" href="#contact">contact</a>
-      </div>
+      <h1 class="display">
+        <span>David</span>
+        <span>Menendez</span>
+      </h1>
+      <h2>Front End Developer at IBM in Austin, Texas</h2>
     </div>
   </section>
   <section class="about section" id="about">
@@ -58,10 +58,11 @@
       <h2>About</h2>
       <article class="about-blurb">
         <img class="about-image" src="images/david_menendez.jpg" alt="David Menendez">
-        <p>My Name is David Menendez and I am a professional front end web developer. I'm originally from South Florida
-          and I am graduate of Florida State University with a Bachelor of Science in Information Technology.</p>
+        <p>My Name is David Menendez and I am a professional front end web developer. I am originally from South Florida
+          and a graduate of Florida State University with a Bachelor of Science in Information Technology.</p>
         <p>I currently live in Austin, Texas and work as a Software Developer for IBM. For the past several years I have
-          been working on the IBM Cloud UI primarily as a front end developer.</p>
+          been working as a front end developer on several IBM Cloud projects primarily working on building user
+          interfaces.</p>
         <p>When I'm not coding I spend a lot of free time being active outdoors or creating music.</p>
       </article>
     </div>
@@ -82,7 +83,10 @@
           </h4>
         </header>
         <ul class="resume-list">
-          <li class="resume-item">Technical lead for <a href="https://www.ibm.com/cloud/paks/experiences/" target="_blank">IBM Clouse Pak Experiences</a>. Primarily focusing on building extensive flows for provisioning Cloud Pak clusters as well as building and maintaining the single page React application, Node server, and Segment analytics.</li>
+          <li class="resume-item">Technical lead for <a href="https://www.ibm.com/cloud/paks/experiences/"
+              target="_blank">IBM Clouse Pak Experiences</a>. Primarily focusing on building extensive flows for
+            provisioning Cloud Pak clusters as well as building and maintaining the single page React application, Node
+            server, and Segment analytics.</li>
           <li class="resume-item">Developed Autoscaling UI for IBM Bluemix using Node, React, and SCSS</li>
           <li class="resume-item">Developed Kubernetes UI for IBM Cloud using Node, React, and SCSS</li>
           <li class="resume-item">Contributed to IBM's opensource design library (Carbon Components) for button and
@@ -168,12 +172,5 @@
     <small>Copyright &copy; 2020 David Menendez</small>
   </footer>
 </body>
-<script>document.querySelectorAll(".nav-button").forEach(button => {
-    button.addEventListener("click", e => {
-      e.preventDefault();
-      document.querySelector(button.getAttribute("href")).scrollIntoView({ behavior: "smooth" });
-    });
-  });
-</script>
 
 </html>
