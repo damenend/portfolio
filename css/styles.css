@@ -77,9 +77,16 @@ p {
 }
 
 .splash {
-  background: url("../images/splash.jpg") center center fixed;
+  background: url("../images/splash.jpg") center center;
   background-size: cover;
+  background-attachment: scroll;
   color: #fff;
+}
+
+@media (min-width: 576px) {
+  .splash {
+    background-attachment: fixed;
+  }
 }
 
 .button {
