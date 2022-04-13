@@ -5,7 +5,9 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145671208-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
     gtag('config', 'UA-145671208-1');
   </script>
@@ -57,10 +59,9 @@
   <section class="about section" id="about">
     <div class="container">
       <h2>About</h2>
-      <article class="about-blurb">
-        <img class="about-image" src="images/david_menendez.jpg" alt="David Menendez">
-        <p>My Name is David Menendez and I am a professional Front-End developer. I am originally from South Florida
-          and a graduate of Florida State University with a Bachelor of Science in Information Technology.</p>
+      <article class="about-blurb"> <img class="about-image" src="images/david_menendez.jpg" alt="David Menendez">
+        <p>My Name is David Menendez and I am a professional Front-End developer. I am originally from South Florida and
+          a graduate of Florida State University with a Bachelor of Science in Information Technology.</p>
         <p>I currently live in Austin, Texas and work as a Software Developer for IBM. For the past several years I have
           been working as a Front-End developer on several IBM Cloud projects primarily working on building user
           interfaces.</p>
@@ -77,10 +78,8 @@
     <div class="container">
       <h2>Resume</h2>
       <p>Feel free to take my resume with you. Be sure to keep it somewhere safe!</p>
-      <div class="buttons">
-        <a class="button" href="docs/david_menendez_resume.pdf">download pdf</a>
-        <a class="button" href="docs/david_menendez_resume.docx">download doc</a>
-      </div>
+      <div class="buttons"> <a class="button" href="docs/david_menendez_resume.pdf">download pdf</a> <a class="button"
+          href="docs/david_menendez_resume.docx">download doc</a> </div>
       <article class="resume-entry">
         <header class="resume-header">
           <h3>Advisory Software Developer</h3>
@@ -94,17 +93,20 @@
               Cognitive</a> component library. I've contributed the following components / patterns-</li>
           <ul>
             <li><a
-                href="https://carbon-for-ibm-products.netlify.app/?path=/story/ibm-products-components-cards-expressivecard--default"
-                target="_blank" rel="noreferrer">Cards</a></li>
-            <li><a
                 href="https://carbon-for-ibm-products.netlify.app/?path=/story/ibm-products-patterns-add-select-singleaddselect-canary--default"
                 target="_blank" rel="noreferrer">Add Select</a></li>
             <li><a
-                href="https://carbon-for-ibm-products.netlify.app/?path=/story/ibm-products-patterns-export-exportmodal--with-success-message"
-                target="_blank" rel="noreferrer">Export</a></li>
-            <li><a
                 href="https://carbon-for-ibm-products.netlify.app/?path=/story/ibm-products-patterns-generating-an-api-key-apikeymodal--generate"
                 target="_blank" rel="noreferrer">API Key</a></li>
+            <li><a
+                href="https://carbon-for-ibm-products.netlify.app/?path=/story/ibm-products-components-cards-expressivecard--default"
+                target="_blank" rel="noreferrer">Cards</a></li>
+            <li><a
+                href="https://carbon-for-ibm-products.netlify.app/?path=/story/ibm-products-patterns-cascade-cascade--without-grid"
+                target="_blank" rel="noreferrer">Cascade</a></li>
+            <li><a
+                href="https://carbon-for-ibm-products.netlify.app/?path=/story/ibm-products-patterns-export-exportmodal--with-success-message"
+                target="_blank" rel="noreferrer">Export</a></li>
             <li><a
                 href="https://carbon-for-ibm-products.netlify.app/?path=/story/ibm-products-patterns-import-and-upload-importmodal--standard"
                 target="_blank" rel="noreferrer">Import</a></li>
@@ -112,31 +114,30 @@
                 href="https://carbon-for-ibm-products.netlify.app/?path=/story/ibm-products-patterns-saving-saving--auto"
                 target="_blank" rel="noreferrer">Saving</a></li>
             <li><a
-                href="https://carbon-for-ibm-products.netlify.app/?path=/story/ibm-products-patterns-cascade-cascade--without-grid"
-                target="_blank" rel="noreferrer">Cascade</a></li>
-            <li><a
                 href="https://carbon-for-ibm-products.netlify.app/?path=/story/ibm-products-patterns-remove-removemodal--standard"
                 target="_blank" rel="noreferrer">Remove</a></li>
           </ul>
+          <li class="resume-item">Technical lead for <a href="./images/global_search.png" target="_blank">Global Search
+              results UI</a>. Built with React, the application parses data from IBM's global search and displays the
+            results as well as dynamically populating the sidebar filter options </li>
           <li class="resume-item">Technical lead for <a href="https://www.ibm.com/cloud/paks/experiences/"
               target="_blank" rel="noreferrer">IBM Cloud Pak Experiences</a>. Primarily focusing on building extensive
-            flows for
-            provisioning Cloud Pak clusters as well as building and maintaining the single page React application, Node
-            server, and Segment analytics</li>
-          <li class="resume-item">Worked on IBM Cloud Kubernetes UI Node, React, and SCSS. Work included developing the
-            Helm catalog UI, Create Cluster UI, Cluster Pricing, and numerous other components that compose the
-            Kubernetes UI</li>
-          <li class="resume-item">Created Slack portal to drive user involvement in IBM Cloud public Slack
-            from 600 to over 5,000 active users
-          </li>
+            flows for provisioning Cloud Pak clusters as well as building and maintaining the single page React
+            application, Node server, and Segment analytics</li>
+          <li class="resume-item">Core developer for <a href="https://www.ibm.com/cloud/kubernetes-service"
+              target="_blank">IBM Cloud Kubernetes UI</a> using Node, React, and SCSS. Work included developing the <a
+              href="./images/helm2.png" target="_blank">Helm catalog UI</a>, <a href="./images/cluster_creation.png"
+              target="_blank">Create Cluster UI</a>, <a href="./images/va.png" target="_blank">Vulnerability Advisor
+              UI</a>, and numerous other components that compose the Kubernetes UI</li>
+          <li class="resume-item">Created Slack portal to drive user involvement in IBM Cloud public Slack from 600 to
+            over 5,000 active users </li>
           <li class="resume-item">Implemented analytics for IBM Kubernetes UI to establish cluster usage data and other
-            related user data to improve user experience across the Kubernetes experience
-          </li>
-          <li class="resume-item">Worked on Autoscaling UI for IBM Bluemix using Node, React, and SCSS</li>
+            related user data to improve user experience across the Kubernetes experience </li>
+          <li class="resume-item">Developer on <a href="./images/autoscaling.png" target="_blank">IBM Bluemix
+              Autoscaling UI</a> using Node, React, and SCSS</li>
           <li class="resume-item">Contributed to IBM's open source design library (<a
               href="https://github.com/carbon-design-system/carbon" target="_blank" rel="noreferrer">Carbon
-              Components</a>) for button
-            and modal components as well as internal IBM shared components</li>
+              Components</a>) for button and modal components as well as internal IBM shared components</li>
         </ul>
       </article>
       <article class="resume-entry">
